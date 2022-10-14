@@ -59,6 +59,10 @@
   color: var(--container-color);
 }
 
+.project__use {
+  max-width: 300px;
+}
+
 /* ----------RESPONSIVE---------- */
 
 /* large device */
