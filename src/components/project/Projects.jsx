@@ -12,10 +12,12 @@ export const Projects = () => {
   useEffect(() => {
     if (item.name === "all") {
       setProject(projectData);
+      console.log("TCL: Projects -> projectData", projectData);
     } else {
       const newProject = projectData.filter((project) => {
         return project.catagory.toLowerCase() === item.name;
       });
+      console.log("TCL: Projects -> item.name", item.name);
       setProject(newProject);
     }
   }, [item]);
@@ -42,10 +44,23 @@ export const Projects = () => {
           );
         })}
       </div>
+
       <div className="project__container container grid">
         {projects.map((item) => {
           return <ProjectItem item={item} key={item.id} />;
         })}
+
+        {/* {projects.catagory === "" ? (
+          <sapn>There are currently no projects</sapn>
+        ) : (
+          // <ProjectItem item={item} key={item.id} />
+
+          <>
+            {projects.map((item) => {
+              return <ProjectItem item={item} key={item.id} />;
+            })}
+          </>
+        )} */}
       </div>
     </>
   );

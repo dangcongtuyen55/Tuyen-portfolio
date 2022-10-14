@@ -2,7 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
 import aboutMe from "../../assets/about-me.jpg";
-import CV from "../../assets/CV.pdf";
+import CV_Vn from "../../assets/Dang-Cong-Tuyen_Fresher-Front-end.pdf";
+import CV_Eng from "../../assets/Dang-Cong-Tuyen-TopCV.pdf";
 import { Me } from "./Me";
 import DownloadIcon from "@mui/icons-material/Download";
 
@@ -16,14 +17,19 @@ export const About = () => {
         <div className="about__data">
           <Me />
           <p className="about__description">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
-            nemo officiis dolorum quidem quae rem a at molestiae laborum magni
-            quisquam, mollitia cumque eaque sit culpa sunt non autem ullam?
+            My fullname is Dang Cong Tuyen. Graduated with BA in Information
+            Technology from Dong Nai University of Technology
           </p>
-          <Link download to={CV} className="button button__download">
-            Download CV{" "}
-            <i class="bx bxs-download bx-fade-down button__download-icon"></i>
-          </Link>
+          <div className="about__cv grid">
+            <a href={CV_Vn} download className="button button__download">
+              Download VN CV{" "}
+              <i class="bx bxs-download bx-fade-down button__download-icon"></i>
+            </a>
+            <a href={CV_Eng} download className="button button__download">
+              Download ENG CV{" "}
+              <i class="bx bxs-download bx-fade-down button__download-icon"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>

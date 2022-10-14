@@ -61,8 +61,8 @@ export const Info = () => {
       </h1>
       <h3 className="home__subtitle">Front-end Developer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores
-        iure tempore quibusdam
+        My fullname is Dang Cong Tuyen. Graduated with BA in Information
+        Technology from Dong Nai University of Technology
       </p>
       <Link to={""} className="button button--flex">
         Hello <i class="bx bx-send"></i>

@@ -38,7 +38,9 @@ export const Contact = () => {
             <div className="contact__card">
               <i class="bx bx-envelope"></i>
               <h3 className="contact__card-title">Email</h3>
-              <span className="contact__card-data">tuyendev55@gmail.com</span>
+              <span className="contact__card-data">
+                dangcongtuyen55@gmail.com
+              </span>
               <Link className="contact__button" to={""}>
                 Write me
                 <i class="bx bx-right-arrow-alt contact__button-icon"></i>
