@@ -1,5 +1,6 @@
 import selling from "../../assets/sellingbook.png";
 import movie from "../../assets/movie.jpg";
+import PetStore from "../../assets/Pet_Store.jpg";
 export const projectData = [
   {
     id: 1,
@@ -45,6 +46,16 @@ export const projectData = [
     source: "https://github.com/dangcongtuyen55/Movie-app.git",
     status: "done",
   },
+  {
+    id: 5,
+    image: PetStore,
+    title: "Landing page Pet Store",
+    description: "Use html scss to build FE ",
+    catagory: "landing page",
+    link: "https://dazzling-cendol-51c5b1.netlify.app/",
+    source: "https://github.com/dangcongtuyen55/Pet-Store.git",
+    status: "updating",
+  },
 ];
 
 export const catagoryProject = [
@@ -58,6 +69,6 @@ export const catagoryProject = [
     name: "app",
   },
   {
-    name: "design",
+    name: "landing page",
   },
 ];
