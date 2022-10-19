@@ -46,16 +46,6 @@ export const projectData = [
     source: "https://github.com/dangcongtuyen55/Movie-app.git",
     status: "done",
   },
-  {
-    id: 5,
-    image: PetStore,
-    title: "Landing page Pet Store",
-    description: "Use html scss to build FE ",
-    catagory: "landing page",
-    link: "https://dazzling-cendol-51c5b1.netlify.app/",
-    source: "https://github.com/dangcongtuyen55/Pet-Store.git",
-    status: "updating",
-  },
 ];
 
 export const catagoryProject = [
