@@ -16,7 +16,7 @@ export const About = () => {
           <Me />
           <p className="about__description">
             My fullname is Dang Cong Tuyen. Graduated with BA in Information
-            Technology from Dong Nai University of Technology
+            Technology from Dong Nai University of Technology.
           </p>
           <div className="about__cv grid">
             <a href={CV_Vn} download className="button button__download">
