@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
 import aboutMe from "../../assets/about-me.jpg";
 import CV_Vn from "../../assets/CV_VN.pdf";
 import CV_Eng from "../../assets/CV_ENG.pdf";
 import { Me } from "./Me";
-import DownloadIcon from "@mui/icons-material/Download";
 
 export const About = () => {
   return (
