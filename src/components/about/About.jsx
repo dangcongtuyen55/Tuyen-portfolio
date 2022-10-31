@@ -1,8 +1,8 @@
 import React from "react";
 import "./About.css";
 import aboutMe from "../../assets/about-me.jpg";
-import CV_Vn from "../../assets/CV_VN.pdf";
-import CV_Eng from "../../assets/CV_ENG.pdf";
+import CV_Vn from "../../assets/Dang-Cong-Tuyen-TopCV-CV-VN.pdf";
+import CV_Eng from "../../assets/Dang-Cong-Tuyen-TopCV-CV-ENG.pdf";
 import { Me } from "./Me";
 
 export const About = () => {
